@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF8";
 
 body{
@@ -6,3 +7,96 @@ body{
     background-repeat: no-repeat;
     
 }
+=======
+@charset  "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('imagens/fundo-madeira.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cell{
+    position: absolute;
+    min-width: 200px;
+    min-height: 400px;
+    max-width: 300px;
+    max-height: 600px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('imagens/frame-iphone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.redes{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#facebook{
+    position: absolute;
+    background-image: url('imagens/logo-facebook.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    top: 20%;
+    left: 85vw;
+}
+#instagram{
+    position: absolute;
+    background-image: url('imagens/logo-instagram.jpg');
+    background-size: cover;
+    top: 30%;
+    left: 85vw;
+}
+#github{
+    position: absolute;
+    background-image: url('imagens/logo-github.jpg');
+    background-size: cover;
+    top: 40%;
+    left: 85vw;
+}
+#twitter{
+    position: absolute;
+    background-image: url('imagens/logo-twitter.jpg');
+    background-size: cover;
+    top: 50%;
+    left: 85vw;
+}
+#youtube{
+    position: absolute;
+    background-image: url('imagens/logo-youtube.jpg');
+    background-size: cover;
+    top: 60%;
+    left: 85vw;
+}
+#home{
+    position: absolute;
+    background-image: url('imagens/logo-home.jpg');
+    background-size: cover;
+    top: 70vh;
+    left: 85vw;
+}
+iframe{
+    position: absolute;
+    display: block;
+    width: 175px;
+    height: 305px;
+    background-image: url('imagens/tela-home.jpg');
+    background-size: cover;
+    top: 13%;
+    left: 6%;
+    border-radius: 2px;
+}
+>>>>>>> f266ad8cdff0d9238b2d204c93b577a50d5dbdf6
