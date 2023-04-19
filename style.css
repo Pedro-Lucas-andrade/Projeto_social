@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-@charset "UTF8";
 
-body{
-    background-image: url('pacote-d013/pacote-d013/imagens/fundo-madeira.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
-=======
 @charset  "UTF-8";
 
 *{
@@ -28,8 +19,8 @@ main{
 }
 #cell{
     position: absolute;
-    min-width: 200px;
-    min-height: 400px;
+    min-width: 280px;
+    min-height: 560px;
     max-width: 300px;
     max-height: 600px;
     top:50%;
@@ -53,12 +44,22 @@ main{
     top: 20%;
     left: 85vw;
 }
+#facebook:hover{
+    box-shadow: 1px 1px 3px;
+    background-size: 110%;
+    background-position: center;
+}
 #instagram{
     position: absolute;
     background-image: url('imagens/logo-instagram.jpg');
     background-size: cover;
     top: 30%;
     left: 85vw;
+}
+#instagram:hover{
+    box-shadow: 1px 1px 3px;
+    background-size: 110%;
+    background-position: center;
 }
 #github{
     position: absolute;
@@ -67,12 +68,22 @@ main{
     top: 40%;
     left: 85vw;
 }
+#github:hover{
+    box-shadow: 1px 1px 3px;
+    background-size: 110%;
+    background-position: center;
+}
 #twitter{
     position: absolute;
     background-image: url('imagens/logo-twitter.jpg');
     background-size: cover;
     top: 50%;
     left: 85vw;
+}
+#twitter:hover{
+    box-shadow: 1px 1px 3px;
+    background-size: 110%;
+    background-position: center;
 }
 #youtube{
     position: absolute;
@@ -81,6 +92,11 @@ main{
     top: 60%;
     left: 85vw;
 }
+#youtube:hover{
+    box-shadow: 1px 1px 3px;
+    background-size: 110%;
+    background-position: center;
+}
 #home{
     position: absolute;
     background-image: url('imagens/logo-home.jpg');
@@ -88,15 +104,20 @@ main{
     top: 70vh;
     left: 85vw;
 }
+#home:hover{
+    box-shadow: 1px 1px 3px;
+    background-size: 110%;
+    background-position: center;
+}
 iframe{
     position: absolute;
     display: block;
-    width: 175px;
-    height: 305px;
+    width: 243px;
+    height: 425px;
     background-image: url('imagens/tela-home.jpg');
     background-size: cover;
-    top: 13%;
-    left: 6%;
-    border-radius: 2px;
+    top: 12.7%;
+    left: 6.5%;
+    border-radius: 5px;
 }
->>>>>>> f266ad8cdff0d9238b2d204c93b577a50d5dbdf6
+
